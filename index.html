@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+<head>
+<meta charset="UTF-8">
+<title>Dominex Network</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<a href="index.html" class="logo">DOMINEX</a>
+
+<div class="links">
+
+<!-- MENU -->
+<div class="dropdown">
+<button class="dropbtn">
+Menu <span class="arrow">▼</span>
+</button>
+
+<div class="dropdown-content">
+<a href="index.html">Home</a>
+<a href="staff.html">Staff</a>
+<a href="players.html">Players</a>
+<a href="map.html">Map</a>
+<a href="rules.html">Regole</a>
+<a href="guide.html">Guida</a>
+<a href="novita.html">Novità</a>
+</div>
+</div>
+
+<!-- LINK DIRETTI -->
+<a href="https://voto.dominex.it">Vote</a>
+<a href="https://store.dominex.it">Store</a>
+<a href="https://discord.dominex.it">Discord</a>
+
+</div>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-bg"></div>
+
+<div class="hero-content">
+
+<h1 class="hero-title">DOMINEX</h1>
+
+<p class="hero-subtitle">
+Dominex Network • Towny • Apocalypse
+</p>
+
+<div class="hero-ip" onclick="copyIP()">
+
+<span class="ip-label">GIOCA ORA</span>
+
+<div class="ip-container">
+
+<span class="ip-address">play.dominex.it</span> <span class="copy-icon">📋</span>
+
+</div>
+
+</div>
+
+<div class="hero-players">
+<span id="playercount">...</span> Player Online
+</div>
+
+<div class="hero-buttons">
+
+<a href="https://discord.dominex.it" class="btn discord">
+Discord
+</a>
+
+<a href="https://voto.dominex.it" class="btn vote">
+Vota
+</a>
+
+<a href="https://store.dominex.it" class="btn store">
+Store
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="features">
+
+<h2>Perché giocare su Dominex?</h2>
+
+<p class="features-desc">
+Dominex è un network Minecraft che offre modalità uniche,
+esperienze innovative e una community attiva in continua crescita.
+Un unico ecosistema, tante avventure diverse.
+</p>
+
+<div class="features-grid">
+
+<div class="feature">
+<h3>🌍 Modalità Uniche</h3>
+<p>
+Scopri server e modalità progettate su misura,
+con meccaniche personalizzate e contenuti esclusivi.
+</p>
+</div>
+
+<div class="feature">
+<h3>🚀 Esperienza Network</h3>
+<p>
+Entra in un ecosistema collegato dove puoi
+cambiare modalità e vivere esperienze diverse
+senza uscire dal network.
+</p>
+</div>
+
+<div class="feature">
+<h3>👥 Community Attiva</h3>
+<p>
+Eventi, aggiornamenti costanti e una community
+in crescita rendono Dominex sempre vivo.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="faq">
+
+<h2>FAQ</h2>
+
+<div class="faq-item">
+<button class="faq-question">
+<span>Come entro nel server?</span>
+<span class="arrow">▼</span>
+</button>
+<div class="faq-answer">
+<p>Usa l'IP <b>play.dominex.it</b> su Minecraft Java Edition.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+<span>Come posso attivare i pacchetti risorsa?</span>
+<span class="arrow">▼</span>
+</button>
+<div class="faq-answer">
+<p>Per attivare i pacchetti risorsa bisogna: Cliccare il server, Cliccare "Modifica Server", Pacchetti Risorsa: Attivi.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+<span>Come entro su Bedrock?</span>
+<span class="arrow">▼</span>
+</button>
+<div class="faq-answer">
+<p>
+Puoi entrare anche da Minecraft Bedrock usando:
+<br><br>
+<b>IP:</b> play.dominex.it<br>
+<b>Porta:</b> 5184
+</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+<span>Serve avere un account premium?</span>
+<span class="arrow">▼</span>
+</button>
+<div class="faq-answer">
+<p>No, il server supporta sia giocatori premium che non premium.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+<span>Il mondo viene resettato?</span>
+<span class="arrow">▼</span>
+</button>
+<div class="faq-answer">
+<p>Il mondo viene resettato ogni fine Season.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+<span>Come posso guadagnare nel server?</span>
+<span class="arrow">▼</span>
+</button>
+<div class="faq-answer">
+<p>
+Puoi guadagnare tramite lavori, commercio con altri player,
+vendita di risorse e sviluppo della tua città.
+</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+<span>Serve una versione specifica?</span>
+<span class="arrow">▼</span>
+</button>
+<div class="faq-answer">
+<p>Il server supporta la versione 1.21.11 di Minecraft.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+<span>Come posso supportare il server?</span>
+<span class="arrow">▼</span>
+</button>
+<div class="faq-answer">
+<p>Puoi votare il server o acquistare contenuti nello store.</p>
+</div>
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+
+<footer class="footer">
+
+<div class="footer-container">
+
+<div class="footer-left">
+<h2>DOMINEX</h2>
+<p>Dominex è un network Minecraft in costante evoluzione, progettato per offrire modalità innovative, eventi esclusivi e un’esperienza completa per tutta la community.</p>
+</div>
+
+<div class="footer-links">
+
+<div class="footer-column">
+<h3>Server</h3>
+<a href="index.html">Home</a>
+<a href="players.html">Players</a>
+<a href="map.html">Map</a>
+<a href="staff.html">Staff</a>
+</div>
+
+<div class="footer-column">
+<h3>Community</h3>
+<a href="https://discord.dominex.it">Discord</a>
+<a href="https://voto.dominex.it">Vote</a>
+<a href="https://store.dominex.it">Store</a>
+</div>
+
+<div class="footer-column">
+<h3>Info</h3>
+<a href="rules.html">Regole</a>
+<a href="guide.html">Guida</a>
+<a href="novita.html">Novità</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p>© 2026 Dominex Network • Non affiliato a Mojang</p>
+</div>
+
+</footer>
+</body>
+</html>
