@@ -4,10 +4,10 @@ const server = "play.dominex.it";
 
 const playerDescriptions = [
 "Abitante dell’universo Dominex",
-"Esplora il mondo Dominex",
+"Esploratore dell'universo Dominex",
 "Membro della community Dominex",
-"Costruisce nuove città nel mondo Dominex",
-"Viaggiatore del mondo Dominex",
+"Costruisce nuove città nell'universo Dominex",
+"Viaggiatore dell'universo Dominex",
 "Parte dell’universo Dominex"
 ];
 
